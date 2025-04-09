@@ -7,14 +7,8 @@ public class program1 {
 };
 
 
-git push --set-upstream origin main
 
 
 
 
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Nikitasingh25/Java.git
-git push -u origin main
+
