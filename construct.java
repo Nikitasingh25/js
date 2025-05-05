@@ -14,6 +14,7 @@ class constructor
 public class construct {
    public static void main(String[] args) {
      constructor obj=new constructor("Trisha",224);
+     constructor obj1=new constructor()
       System.out.println(obj.name);
 
    } 
