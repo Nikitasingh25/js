@@ -20,9 +20,9 @@ class Card extends payment {
         System.out.println("payment done via card "+a);
     }
 } 
-public class Inheritance{
+public class Abstract{
            public static void main(String[] args) {
-                payment obj=new upiPayment();
+                payment obj=new upiPayment(); // to use the properties of abstract class make the object of child class and store it in the abstract class obj.
                 obj.pay(250);
                 obj.print();
                 payment obj1=new Card();
