@@ -1,5 +1,7 @@
  class chaining
- {
+ { int a =34;
+    int b=1;
+
     chaining()
     {
         System.out.println("Haha");
@@ -17,7 +19,7 @@
  }
 public class ChainingOfConstructor {
     public static void main(String[] args) {
-        chaining obj=new chaining(12,5);
+       chaining obj=new chaining();
 
     }
 }
