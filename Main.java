@@ -8,11 +8,20 @@ class Circle extends Shape{
      {
         System.out.println("Area is "+(3.14*(a*a)));
      }
-}
+     void area(int a,int b)
+     {
+        System.out.println("area is =");
+     }
+
+    }
 class Rectangle extends Shape{
    void area(int a,int b)
    {
     System.out.println("Area is "+(a*b));
+   }
+   void area(int a)
+   {
+    System.out.println("area is");
    }
 }
 public class Main {
