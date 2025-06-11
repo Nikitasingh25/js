@@ -1,14 +1,14 @@
 class full{
     String FirstName="Nikita";
     String LastName="Singh";
-    void Name()
+      void  Name()
     {
-        System.out.println(FirstName+" "+LastName);
+        System.out.println(" n");
     }
 } 
 public class MultipleClass {
     public static void main(String[] args) {
-        full obj=new full();
-        obj.Name();
+full obj=new full();
+       obj.Name();
     }
 }
