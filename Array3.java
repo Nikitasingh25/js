@@ -6,7 +6,7 @@ public class Array3 {
         int[][] arr = new int[2][3];
 
         for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < 2; j++) {
+            for (int j = 0; j < 2; j++)      {
                 arr[i][j] = 0;
                 int sum = 0;
                 for (int k = 0; k < arr.length; k++) {
